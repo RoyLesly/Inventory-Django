@@ -1,0 +1,5 @@
+> pip install django python-decouple djangorestframework django-cors-headers jwt Pillow
+> python manage.py makemigrations user_control
+> python manage.py makemigrations app_control
+> python manage.py migrate
+> python manage.py createsuperuser
